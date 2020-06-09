@@ -1,0 +1,63 @@
+.nav {
+  margin: 80px 0;
+  .inner {
+    max-width: 1200px;
+    padding: 1.6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .nav-links {
+      display: flex;
+      .link {
+        padding-right: 16px;
+      }
+    }
+  }
+}
+
+.hero {
+  .inner {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    .content {
+      max-width: 460px;
+      .heading {
+        font-size: 4rem;
+        line-height: 4.4rem;
+        padding-bottom: 1rem;
+      }
+      .copy {
+        padding-bottom: 2rem;
+        p {
+          color: $dark-grey-blue;
+        }
+      }
+    }
+    .img-outer {
+      //   max-width: 100%;
+      position: relative;
+      &:before {
+        content: "";
+        background-image: url("../assets/images/bg-tablet-pattern.svg");
+        display: block;
+        height: 100%;
+        min-height: 600px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        width: 100%;
+        top: -310px;
+        min-width: 700px;
+        z-index: -1;
+      }
+      img {
+        // width: 100%;
+      }
+    }
+  }
+}
