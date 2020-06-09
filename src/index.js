@@ -1,10 +1,8 @@
 import style from "./sass/index.scss";
 
-const signUpButton = document.getElementById("signup");
-const submitBtn = document.querySelector(".contact-us");
+const submitBtn = document.querySelector("#submit-button");
 submitBtn.addEventListener("click", (e) => {
   validateEmail();
-  // e.preventDefault();
 });
 
 function validateEmail() {
@@ -13,11 +11,13 @@ function validateEmail() {
 
   if (!emailRegex.test(emailInput.value)) {
     const errorDiv = document.createElement("div");
-    document.querySelector(".signup").appendChild(errorDiv);
+    document.querySelector(".signup-outer").appendChild(errorDiv);
     errorDiv.innerHTML = "Woops, make sure it's a valid email please!";
     errorDiv.classList.add("email-error");
     emailInput.style.border = "1px solid #fb5859";
   } else {
     console.log("Email is correct!");
+    emailInput.value = "";
+    emailInput.placeholder = "Successfully signed up!";
   }
 }

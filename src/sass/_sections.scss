@@ -185,15 +185,19 @@
       }
     }
     .cta {
+      max-width: 440px;
       .signup-outer {
         display: flex;
         margin-bottom: 2rem;
         align-items: center;
+        flex-flow: wrap;
         input {
           border-radius: 20px;
           margin-right: 1.6rem;
           padding: 1rem 2rem;
           outline: none;
+        }
+        .email-error {
         }
       }
     }
