@@ -1,4 +1,7 @@
-# easy-build-template
+# Frontend Mentors Job Listings with Filtering Challenge
+Challenge available <a href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">here.</a>
+<br>
+Final link <a href="#">here.</a>
 
 # Getting started
 1. git clone
