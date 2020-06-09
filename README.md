@@ -1,7 +1,7 @@
 # Frontend Mentors Job Listings with Filtering Challenge
 Challenge available <a href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">here.</a>
 <br>
-Final link <a href="#">here.</a>
+Final link <a href="https://luxjoshyua.github.io/manage-landing-page/">here.</a>
 
 # Getting started
 1. git clone
