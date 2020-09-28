@@ -80,6 +80,16 @@
     white-space: nowrap;
     padding-bottom: 3rem;
     margin-bottom: 2rem;
+    &::-webkit-scrollbar {
+      height: 4px;
+      width: 4px;
+      background: rgba(128, 128, 128, 0.116);
+    }
+    &::-webkit-scrollbar-thumb:horizontal {
+      background: $orange;
+      border-radius: 10px;
+      max-width: 80%;
+    }
     .testimonial {
       min-width: 500px;
       max-width: 540px;
